@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        .y{
+            border: 1px solid black;
+            width: 1000px;
+
+        }
+        .x{
+            display: flex; 
+            text-align: center;
+            width:1000px;
+            flex-direction: row;
+        }
+        .x>*{
+            padding: 5px;
+            margin: 5px;
+            border-radius: 10px;
+        }
+        .h1{
+            background-color: yellow;
+            height: 50px;
+            flex-wrap: wrap;
+            width: 1000px;
+            display: flex;
+            
+
+        }
+        .nav{
+            background-color: green;
+            height: 50px;
+            flex-wrap: wrap;
+            width: 1000px;
+
+        }
+        .main{
+            background-color: blue;
+            height: 330px; 
+            flex-direction: row;
+            width: 70%;
+
+        
+            
+
+        }
+        .main>*{
+            padding: 5px;
+            margin: 5px;
+            flex: 1 100%;
+            border-radius: 10px;
+           
+            
+        }
+        .main>section{
+            background-color: silver;
+            height:280px ;
+        }
+        .section>*{
+            padding: 5px;
+            margin: 5px;
+            flex: 1 100%;
+            border-radius: 10px;
+        }
+        .h2{
+            background-color: yellow;
+            height: 50px;
+            padding: 2px;
+        }
+        .article1{
+            background-color: gold;
+            height: 50px;
+        }
+        .article2{
+            background-color: gold;
+            height: 50px;
+        }
+        .article3{
+            background-color: gold;
+            height: 50px;
+        }
+        .aside{
+            background-color: silver;
+            height:330px; 
+            flex-direction: row;
+            width:30%;
+                   
+        }
+        .h3{
+            background-color: yellow;
+            height: 50px;
+        }
+
+        .footer{
+            background-color: blueviolet;
+            height: 50px;
+            width: 1000px;
+            
+        }
+        
+    </style>
+</head>
+<body>
+
+
+    <div class="y">    
+        <header class="h1"> Header</header>
+    
+        <nav class="nav">nav</nav>
+        <div class="x">
+        <main class="main">
+            main
+    
+            <section class="section">
+                section
+    
+                <header class="h2">header</header>
+    
+                <article class="article1">Article </article>
+    
+                <article class="article2">Article </article>
+    
+                <article class="article3">Article </article>
+    
+            </section>
+    
+        </main>
+    
+        <aside class="aside">
+            aside
+    
+            <header class="h3"> header</header>
+    
+        </aside>
+    </div>  
+    
+        <footer class="footer">footer </footer>
+    </div>
+     
+</body>
+</html>
