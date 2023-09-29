@@ -1,0 +1,4 @@
+Problem I Faced,
+1.I faced problem with the image alignments.
+2.In the testimonials I was unable to put the statements of clients next to their picture.
+3.I was not able to use some properties of flex.
